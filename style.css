@@ -1,0 +1,103 @@
+@import url('https://fonts.google.com/');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family:serif,  monospace,  sans-serif;
+   
+    background:linear-gradient(90deg, #0033cc,white);
+}
+
+.principal {
+    margin-top: 30px;
+}
+
+.navbar{
+    background-color:#ffff00;
+}
+#carouselExample{
+    background-color: beige;
+}
+
+.text-center{
+    color: #ff0000;
+}
+
+#cat {
+    color:#ff0000;
+    text-align : center;
+}
+
+#frase{
+    color:#ff0000;
+    text-align: center;
+}
+
+footer {
+    background-color:#ffff00;
+    padding: 30px 5px 30px 5px;   
+}
+li:hover{
+    background-color: rgb(224, 200, 141);
+}
+.titulo{
+    
+    background:linear-gradient(360deg, #1717df ,#0c0c54 );
+}
+/*estilo para el formulario*/
+.form{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: 5% auto auto auto;
+    
+}
+ 
+.estilo{
+font-family: 'Montserrat', sans-serif;
+min-width: 100vh;
+width: 100%;
+display: flex;
+}
+.input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding:0.8 1em ;
+    border: none;
+    outline: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+#enviar{
+    font-family: inherit;
+    border-radius: 1rem;
+    background-color:rgb(39, 171, 227) ;
+    height: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.contenido{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5;
+}
+.input--mensaje{
+    resize: none;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    height: 10rem;
+}
