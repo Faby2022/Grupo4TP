@@ -76,7 +76,7 @@ display: flex;
     border: 1px solid #bbb0b0;
     border-radius: 0.2em;
 }
-#enviar{
+#enviar {
     font-family: inherit;
     border-radius: 1rem;
     background-color:rgb(39, 171, 227) ;
@@ -101,3 +101,12 @@ display: flex;
     margin-bottom: 0.5em;
     height: 10rem;
 }
+/*raptor class*/
+.container{
+    width: 50%;
+    border: 2px solid black;
+}
+div h2 ,p{
+ color: #ff0000;
+}
+
