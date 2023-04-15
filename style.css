@@ -21,7 +21,6 @@ body {
 .navbar{
     background-color:#f4f007;
 }
-/*inicio de prueba*/
 .navbar{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0;
@@ -36,62 +35,14 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: blue;
 }
-/*inicio de prueba*/
-/*Estilos del formulario*/
-/*.container-form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 400px;
-    padding: 20px;
-    justify-content: center;
-    align-content: baseline;
-    background-color: rgb(243, 243, 124);
-    border-radius: 4%;
-    box-shadow: rgb(129, 38, 4) 2px 3px;
-    
-    
-}
-*/
-/*.container-form h2{
-    color:blue;
-    text-align: center;
-    display: ruby-text-container;
-    height: 150px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-*/
-/*.container-form form div{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 20px;
-    background-color: orange;
-}
-*/
-/*.container-form form div input{
-    text-transform: initial;
-    width: 80%;
-    
-}
-*/
-/*.container-form form button{
-    
-    color:blue;
-    background-color: orange;
-    text-transform: uppercase;
-    margin-left:500px;
-}
- */  
 
-
-/*inicio de final*/
 #carouselExample{
     background-color: beige;
 }
 
 .text-center{
     color: #a14016;
+   font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cat {
@@ -179,5 +130,23 @@ display: flex;
 div h2 ,p{
  color: #a14016;
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 
+}
+section img{
+    display: flex;
+    display: inline-block;
+    width: 50%;
+}
+section p{
+    padding: 15px;
+     margin: 30px;
+    width: 30%;
+    font-size: larger;
+    
+}
 
