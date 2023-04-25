@@ -158,13 +158,70 @@ section p{
     font-family: 'Roboto Slab', serif;
     color: black;
 }
+
+
+
+.card{
+    background-color: gray;
+}
+
+.card-img-top {
+    background-color: gray;
+}
+
 .card-text{
-    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-family:"Roboto Slab",serif;
+    background-color: gray;
 }
-.card-title{
-    font-family: 'DynaPuff', cursive
-}
-#foot{
-    font-family: 'Roboto Slab', serif;
-    font-size: 14px;
-}
+
+.card-body{
+    background-color:gray;
+    }
+
+    .card-title{
+        font-family: "Rampart One" ;
+        background-color: gray;  
+        color: white;
+    }
+    .logo{
+        margin: 10px;
+        padding: 10px;
+        justify-content:center;
+        text-align: center;
+    }
+    .logo h5{
+        font-family: "DynaPuff", cursive ;
+    }
+    .categorias{
+        display: flex;
+        justify-content: center;
+    }
+    .imagen{
+        width: 350px;
+        margin-right: 50px;
+        padding-bottom: 20px;
+    }
+    .categorias h3{
+        display: flex;
+        justify-content: center;
+        padding-right: 180px;
+        padding-bottom: 10px;
+    }
+    .detalles{
+        align-self: center;
+        font-family: "DynaPuff", cursive;
+        
+    }
+    .detalles p{
+        color: black;
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+    
+    .button-link{
+        color: #0c0c54;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
